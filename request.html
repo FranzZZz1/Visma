@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>ApplicationPage</title>
+	<title>RequestPage</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
@@ -152,146 +152,165 @@
 						<li class="breadcrumbs__item">
 							<a href="#" class="breadcrumbs__link">Клиентам</a>
 						</li>
-						<li class="breadcrumbs__item">Заявка и перечень документов для заключения договоров</li>
+						<li class="breadcrumbs__item">Запрос ставки и условий погрузочно-разгрузочных работ</li>
 					</ul>
 				</div>
 			</section>
 
-			<section class="application section-offset">
-				<div class="container application__container">
-					<h1 class="application__title">
-						Заявка и перечень документов для заключения
-						договоров
-					</h1>
-					<div class="application__content">
-						<div class="application__text-wrapper">
-							<p class="application__text">
-								Для рассмотрения возможности заключения
-								договора контрагент должен предоставить
-								следующие документы:
-							</p>
-							<ul class="application__list">
-								<li class="application__item">
-									заявку (оферту) на имя генерального
-									директора VISMA Technology, которая
-									подается на фирменном бланке организации
-									и должна содержать сведения о виде работ
-									и услуг, на которые контрагент
-									предлагает заключить договор,
-									номенклатуре груза и общем объеме на год
-									с разбивкой по месяцам.
-								</li>
-							</ul>
-						</div>
-						<div class="application__text-wrapper">
-							<p class="application__text">
-								Для резидентов РФ (документы должны быть
-								заверены подписью руководителя и печатью
-								организации):
-							</p>
-							<ul class="application__list">
-								<li class="application__item">
-									копию выписки из ЕГРЮЛ (выданной не
-									позднее одного месяца до даты заключения
-									договора);
-								</li>
-								<li class="application__item">
-									копии учредительных документов (устава,
-									положения);
-								</li>
-								<li class="application__item">
-									копию протокола или выписки из протокола
-									о назначении исполнительного органа;
-								</li>
-								<li class="application__item">
-									копию свидетельства о государственной
-									регистрации;
-								</li>
-								<li class="application__item">
-									копию приказа о назначении лица,
-									действующего на основании положения;
-								</li>
-								<li class="application__item">
-									копию доверенности представителя;
-								</li>
-								<li class="application__item">
-									копию свидетельства о постановке на учет
-									в качестве налогоплательщика;
-								</li>
-								<li class="application__item">
-									заполненную карточку контрагента,
-									заверенную подписью и печатью
-									руководителя организации и главного
-									бухгалтера и содержащую следующую
-									информацию:
-								</li>
-								<ol class="application__digit-list">
-									<li class="application__digit-item">
-										Юридический адрес контрагента;
-									</li>
-									<li class="application__digit-item">
-										Фактический адрес контрагента;
-									</li>
-									<li class="application__digit-item">
-										Банковские реквизиты контрагента;
-									</li>
-									<li class="application__digit-item">
-										Контактная информация: номер факса,
-										адрес электронной почты и контактные
-										лица с указанием номеров телефонов.
-									</li>
-								</ol>
-							</ul>
-						</div>
-						<div class="application__text-wrapper">
-							<p class="application__text">
-								Для нерезидентов РФ (документы должны быть
-								предоставлены с нотариально заверенным
-								переводом на русский язык):
-							</p>
 
-							<ul class="application__list">
-								<li class="application__item">
-									выписка из Торгового реестра страны
-									происхождения компании-контрагента (о
-									благонадежности компании);
-								</li>
-								<li class="application__item">
-									учредительные документы и документы
-									регистрации фирмы (копии);
-								</li>
-								<li class="application__item">
-									подтверждение полномочий лица на право
-									подписания договора, нотариально
-									заверенная доверенность с апостилем,
-									либо выписка из протокола о назначении
-									(избрании) на должность;
-								</li>
-								<li class="application__item">
-									заполненную карточку контрагента,
-									заверенную подписью и печатью
-									руководителя организации и содержащую
-									следующую информацию:
-								</li>
-								<ol class="application__digit-list">
-									<li class="application__digit-item">
-										Юридический адрес контрагента;
-									</li>
-									<li class="application__digit-item">
-										Фактический адрес контрагента;
-									</li>
-									<li class="application__digit-item">
-										Банковские реквизиты контрагента;
-									</li>
-									<li class="application__digit-item">
-										Контактная информация: номер факса,
-										адрес электронной почты и контактные
-										лица с указанием номеров телефонов.
-									</li>
-								</ol>
-							</ul>
+			<section class="request section-offset">
+				<div class="container request__container">
+					<h1 class="request__title">
+						Запрос ставки и условий погрузочно-разгрузочных
+						работ
+					</h1>
+					<form class="request__form">
+						<div class="request__form-top">
+							<div class="request__form-group">
+								<label for="shipping-name">Наименование груза *</label>
+								<input type="text" class="request__input" id="shipping-name" required />
+							</div>
+							<div class="request__form-group">
+								<label for="cargo-size">Размер партии *</label>
+								<input type="text" class="request__input" id="cargo-size" required />
+							</div>
+							<div class="request__form-group">
+								<label for="unit">Ед. измерения *</label>
+								<div class="request__select-wrapper">
+									<select name="form[]" data-class-modif="form" class="request__select" id="unit" required>
+										<option value="" selected></option>
+										<option value="1">Пункт №1</option>
+										<option value="2">Пункт №2</option>
+										<option value="3">Пункт №3</option>
+									</select>
+								</div>
+							</div>
+							<div class="request__form-group">
+								<label for="cargo-direction">Ед. измерения *</label>
+								<div class="request__select-wrapper">
+									<select name="form[]" data-class-modif="form" class="request__select" id="cargo-direction" required>
+										<option value="" selected></option>
+										<option value="1">Пункт №1</option>
+										<option value="2">Пункт №2</option>
+										<option value="3">Пункт №3</option>
+									</select>
+								</div>
+							</div>
+							<div class="request__form-group">
+								<label for="cargo-size">Пункт назначения перевозки</label>
+								<input type="text" class="request__input" id="destination" />
+							</div>
+							<div class="request__form-group">
+								<label for="entry-period">Период поступления груза к
+									перевалке</label>
+								<div class="request__select-wrapper">
+									<select name="form[]" data-class-modif="form" class="request__select" id="entry-period">
+										<option value="" selected></option>
+										<option value="1">Пункт №1</option>
+										<option value="2">Пункт №2</option>
+										<option value="3">Пункт №3</option>
+									</select>
+								</div>
+							</div>
+							<div class="request__form-group">
+								<label for="cargo-arrives">Груз поступает в порт</label>
+								<div class="request__select-wrapper">
+									<select name="form[]" data-class-modif="form" class="request__select" id="cargo-arrives">
+										<option value="" selected></option>
+										<option value="1">Пункт №1</option>
+										<option value="2">Пункт №2</option>
+										<option value="3">Пункт №3</option>
+									</select>
+								</div>
+							</div>
+							<div class="request__form-group">
+								<label for="cargo-sent">Груз отправляется из порта</label>
+								<div class="request__select-wrapper">
+									<select name="form[]" data-class-modif="form" class="request__select" id="cargo-sent">
+										<option value="" selected></option>
+										<option value="1">Пункт №1</option>
+										<option value="2">Пункт №2</option>
+										<option value="3">Пункт №3</option>
+									</select>
+								</div>
+							</div>
+							<div class="request__form-group">
+								<label for="lot-size">Размер судовой партии</label>
+								<input type="text" class="request__input" id="lot-size" />
+							</div>
+							<div class="request__form-group">
+								<label for="cargo-danger">Опасность груза (класс)</label>
+								<input type="text" class="request__input" id="cargo-danger" />
+							</div>
+							<div class="request__form-group">
+								<label for="additional-info">Дополнительная информация о
+									грузе:</label>
+								<textarea type="text" class="request__textarea" id="additional-info" rows="5"></textarea>
+							</div>
+							<div class="request__form-group">
+								<label for="additional-info">Прикрепить файл
+								</label>
+								<input type="file" class="request__input" id="additional-info" />
+							</div>
 						</div>
-					</div>
+
+						<div class="request__form-center">
+							<h2 class="request__form-title">
+								Просим сообщить:
+							</h2>
+							<div class="request__form-checkboxes">
+								<label for="prr-rate">
+									<input type="checkbox" class="request__checkbox" id="prr-rate" />
+									Ставку прр
+								</label>
+								<label for="accumulation-period">
+									<input type="checkbox" class="request__checkbox" id="accumulation-period" />
+									Срок технологического накопления груза
+								</label>
+								<label for="overtime-storage-rate">
+									<input type="checkbox" class="request__checkbox" id="overtime-storage-rate" />
+									Ставку хранения груза сверх срока
+									технологического накопления
+								</label>
+								<label for="specified-admission">
+									<input type="checkbox" class="request__checkbox" id="specified-admission" />
+									Возможность приёма и перевалки груза в
+									указанные сроки
+								</label>
+							</div>
+						</div>
+
+						<div class="request__form-bottom">
+							<h2 class="request__form-title">
+								Информация для обратной связи:
+							</h2>
+							<div class="request__form-inputs">
+								<div class="request__form-group">
+									<label for="personal-info">Имя, фамилия</label>
+									<input type="text" class="request__input" id="personal-info" />
+								</div>
+								<div class="request__form-group">
+									<label for="company-name">Название компании *</label>
+									<input type="text" class="request__input" id="company-name" required />
+								</div>
+								<div class="request__form-group">
+									<label for="phone-number">Номер телефона/факса</label>
+									<input type="text" class="request__input" id="phone-number" />
+								</div>
+								<div class="request__form-group">
+									<label for="email">Адрес эл. почты *</label>
+									<input type="text" class="request__input" id="email" required />
+								</div>
+							</div>
+						</div>
+						<button type="submit" class="request__form-button">
+							Отправить
+							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+								<circle cx="15" cy="15" r="14" stroke-width="2" />
+								<path d="M14.5001 18.705V15.705H7.8101L7.7876 14.1975H14.5001V11.205L18.2501 14.955L14.5001 18.705Z" />
+							</svg>
+						</button>
+					</form>
 				</div>
 			</section>
 		</main>
