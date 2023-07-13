@@ -1,17 +1,17 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<title>HomePage</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230712172053">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230713192803">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body class="body">
 	<div class="wrapper">
 		<header class="header">
 			<div class="container header__container">
@@ -22,24 +22,24 @@
 				</a>
 
 				<div class="header__mobile-menu" data-menu>
-					<div class="header__mobile-menu--flex">
+					<div class="header__mobile-flex">
 						<div class="header__search header__search--mobile">
-							<button class="header__search-btn">
+							<button class="btn-reset header__search-btn">
 								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
 									<path d="M17.9719 15.7301H16.971L16.6163 15.3882C17.408 14.4689 17.9867 13.386 18.3109 12.2171C18.635 11.0482 18.6966 9.82217 18.4913 8.62668C17.8959 5.10665 14.9566 2.29569 11.4091 1.86518C10.162 1.7075 8.89525 1.83704 7.7059 2.24389C6.51654 2.65074 5.43607 3.32412 4.54717 4.2125C3.65826 5.10088 2.98449 6.18072 2.5774 7.36938C2.17031 8.55804 2.04069 9.82402 2.19847 11.0704C2.62923 14.6158 5.44184 17.5534 8.96394 18.1485C10.1601 18.3537 11.3869 18.2921 12.5565 17.9681C13.7261 17.6442 14.8096 17.0658 15.7294 16.2745L16.0715 16.6291V17.6294L21.456 23.0107C21.9754 23.5298 22.8243 23.5298 23.3437 23.0107C23.8632 22.4916 23.8632 21.6432 23.3437 21.1241L17.9719 15.7301ZM10.3702 15.7301C7.21556 15.7301 4.66901 13.185 4.66901 10.0322C4.66901 6.87933 7.21556 4.33427 10.3702 4.33427C13.5249 4.33427 16.0715 6.87933 16.0715 10.0322C16.0715 13.185 13.5249 15.7301 10.3702 15.7301Z" fill="#3D348B" />
 								</svg>
 							</button>
-							<input class="header__search-input header__search-input--mobile" type="text" />
+							<input class="input-reset header__search-input header__search-input--mobile" type="text" />
 						</div>
 
-						<select name="form[]" data-class-modif="form" class="header__language--mobile">
+						<select name="form[]" data-class-modif="form" class="select-reset header__language header__language--mobile">
 							<option value="1" selected>RU</option>
 							<option value="2">EN</option>
 						</select>
 					</div>
 
 					<nav class="header__navigation">
-						<ul class="header__list">
+						<ul class="list-reset header__list">
 							<!-- <li class="header__item">
                         <a href="#" class="header__link" data-menu-item
                             >О компании</a
@@ -123,20 +123,20 @@
 				</div>
 
 				<div class="header__search">
-					<button class="header__search-btn">
+					<button class="btn-reset header__search-btn">
 						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
 							<path d="M17.9719 15.7301H16.971L16.6163 15.3882C17.408 14.4689 17.9867 13.386 18.3109 12.2171C18.635 11.0482 18.6966 9.82217 18.4913 8.62668C17.8959 5.10665 14.9566 2.29569 11.4091 1.86518C10.162 1.7075 8.89525 1.83704 7.7059 2.24389C6.51654 2.65074 5.43607 3.32412 4.54717 4.2125C3.65826 5.10088 2.98449 6.18072 2.5774 7.36938C2.17031 8.55804 2.04069 9.82402 2.19847 11.0704C2.62923 14.6158 5.44184 17.5534 8.96394 18.1485C10.1601 18.3537 11.3869 18.2921 12.5565 17.9681C13.7261 17.6442 14.8096 17.0658 15.7294 16.2745L16.0715 16.6291V17.6294L21.456 23.0107C21.9754 23.5298 22.8243 23.5298 23.3437 23.0107C23.8632 22.4916 23.8632 21.6432 23.3437 21.1241L17.9719 15.7301ZM10.3702 15.7301C7.21556 15.7301 4.66901 13.185 4.66901 10.0322C4.66901 6.87933 7.21556 4.33427 10.3702 4.33427C13.5249 4.33427 16.0715 6.87933 16.0715 10.0322C16.0715 13.185 13.5249 15.7301 10.3702 15.7301Z" fill="#3D348B" />
 						</svg>
 					</button>
-					<input class="header__search-input" type="text" />
+					<input class="input-reset header__search-input" type="text" />
 				</div>
 
-				<select name="form[]" data-class-modif="form" class="header__language">
+				<select name="form[]" data-class-modif="form" class="select-reset header__language">
 					<option value="1" selected>RU</option>
 					<option value="2">EN</option>
 				</select>
 
-				<button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+				<button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
 					<span class="burger__line"></span>
 				</button>
 			</div>
@@ -159,22 +159,22 @@
 							</svg>
 						</a>
 					</div>
-					<ul class="hero__services-list card-span">
-						<li class="hero__services-item">
-							<span>услуги</span>
-							<span>Погрузочно-разгрузочная деятельность</span>
+					<ul class="list-reset hero__services-list card-span">
+						<li class="card-item hero__services-item">
+							<span class="card-item__span hero__services-text">услуги</span>
+							<h2 class="card-item__title hero__services-title">Погрузочно-разгрузочная деятельность</h2>
 						</li>
-						<li class="hero__services-item">
-							<span>услуги</span>
-							<span>Хранение грузов</span>
+						<li class="card-item hero__services-item">
+							<span class="card-item__span hero__services-text">услуги</span>
+							<h2 class="card-item__title hero__services-title">Хранение грузов</h2>
 						</li>
-						<li class="hero__services-item">
-							<span>услуги</span>
-							<span>Складские операции</span>
+						<li class="card-item hero__services-item">
+							<span class="card-item__span hero__services-text">услуги</span>
+							<h2 class="card-item__title hero__services-title">Складские операции</h2>
 						</li>
-						<li class="hero__services-item">
-							<span>услуги</span>
-							<span>Швартовые операции</span>
+						<li class="card-item hero__services-item">
+							<span class="card-item__span hero__services-text">услуги</span>
+							<h2 class="card-item__title hero__services-title">Швартовые операции</h2>
 						</li>
 					</ul>
 				</div>
@@ -184,61 +184,74 @@
 				<div class="container services__container grid">
 					<div class="services__text-content">
 						<h2 class="title services__title">Услуги</h2>
-						<ul class="services__links-list">
+						<ul class="list-reset services__links-list">
 							<li class="services__links-item">
 								<a href="#" class="services__link">
-									Тарифы на услуги по обеспечению контроля доступа на
-									территорию VISMA на 2022 год
+									<span class="services__link-text">Тарифы на услуги по обеспечению контроля доступа на
+										территорию VISMA на 2022 год</span>
+									<svg xmlns="http://www.w3.org/2000/svg" width="46" height="35" viewBox="0 0 46 35" fill="none">
+										<rect y="0.5" width="46" height="34" rx="10" fill="#5DB7DE" />
+										<path d="M10.78 13.491C11.144 13.4217 11.5427 13.3697 11.976 13.335C12.418 13.2917 12.8557 13.27 13.289 13.27C13.7397 13.27 14.1903 13.309 14.641 13.387C15.1003 13.4563 15.512 13.6037 15.876 13.829C16.24 14.0457 16.5347 14.3533 16.76 14.752C16.994 15.142 17.111 15.6533 17.111 16.286C17.111 16.858 17.0113 17.3433 16.812 17.742C16.6127 18.132 16.3483 18.4527 16.019 18.704C15.6897 18.9553 15.3127 19.1373 14.888 19.25C14.472 19.3627 14.0387 19.419 13.588 19.419C13.5447 19.419 13.4753 19.419 13.38 19.419C13.2847 19.419 13.185 19.419 13.081 19.419C12.977 19.4103 12.873 19.4017 12.769 19.393C12.6737 19.3843 12.6043 19.3757 12.561 19.367V22.5H10.78V13.491ZM13.432 14.804C13.2587 14.804 13.094 14.8127 12.938 14.83C12.782 14.8387 12.6563 14.8517 12.561 14.869V17.82C12.5957 17.8287 12.6477 17.8373 12.717 17.846C12.7863 17.8547 12.86 17.8633 12.938 17.872C13.016 17.872 13.0897 17.872 13.159 17.872C13.237 17.872 13.2933 17.872 13.328 17.872C13.562 17.872 13.7917 17.8503 14.017 17.807C14.251 17.7637 14.459 17.6857 14.641 17.573C14.823 17.4517 14.966 17.287 15.07 17.079C15.1827 16.871 15.239 16.598 15.239 16.26C15.239 15.974 15.187 15.74 15.083 15.558C14.979 15.3673 14.8403 15.2157 14.667 15.103C14.5023 14.9903 14.3117 14.9123 14.095 14.869C13.8783 14.8257 13.6573 14.804 13.432 14.804ZM19.5195 13.4C19.7015 13.374 19.9051 13.3523 20.1305 13.335C20.3645 13.3177 20.6028 13.3047 20.8455 13.296C21.0881 13.2873 21.3221 13.283 21.5475 13.283C21.7815 13.2743 21.9895 13.27 22.1715 13.27C22.9775 13.27 23.6665 13.3827 24.2385 13.608C24.8105 13.8333 25.2741 14.1497 25.6295 14.557C25.9848 14.9643 26.2448 15.4497 26.4095 16.013C26.5741 16.5763 26.6565 17.196 26.6565 17.872C26.6565 18.4873 26.5785 19.081 26.4225 19.653C26.2665 20.225 26.0065 20.732 25.6425 21.174C25.2785 21.616 24.7975 21.9713 24.1995 22.24C23.6101 22.5087 22.8778 22.643 22.0025 22.643C21.8638 22.643 21.6775 22.6387 21.4435 22.63C21.2181 22.6213 20.9798 22.6083 20.7285 22.591C20.4858 22.5823 20.2518 22.5693 20.0265 22.552C19.8011 22.5433 19.6321 22.5303 19.5195 22.513V13.4ZM22.3145 14.856C22.1238 14.856 21.9288 14.8603 21.7295 14.869C21.5388 14.8777 21.3958 14.8907 21.3005 14.908V21.005C21.3351 21.0137 21.3915 21.0223 21.4695 21.031C21.5561 21.031 21.6471 21.0353 21.7425 21.044C21.8378 21.044 21.9288 21.0483 22.0155 21.057C22.1021 21.057 22.1671 21.057 22.2105 21.057C22.7131 21.057 23.1291 20.9703 23.4585 20.797C23.7965 20.615 24.0608 20.3767 24.2515 20.082C24.4508 19.7873 24.5895 19.4493 24.6675 19.068C24.7455 18.678 24.7845 18.2793 24.7845 17.872C24.7845 17.5167 24.7498 17.1613 24.6805 16.806C24.6111 16.442 24.4811 16.117 24.2905 15.831C24.1085 15.545 23.8571 15.311 23.5365 15.129C23.2158 14.947 22.8085 14.856 22.3145 14.856ZM29.2364 13.4H34.6314V14.986H31.0174V17.235H34.3454V18.821H31.0174V22.5H29.2364V13.4Z" fill="white" />
+									</svg>
 								</a>
-								<svg xmlns="http://www.w3.org/2000/svg" width="46" height="35" viewBox="0 0 46 35" fill="none">
-									<rect y="0.5" width="46" height="34" rx="10" fill="#5DB7DE" />
-									<path d="M10.78 13.491C11.144 13.4217 11.5427 13.3697 11.976 13.335C12.418 13.2917 12.8557 13.27 13.289 13.27C13.7397 13.27 14.1903 13.309 14.641 13.387C15.1003 13.4563 15.512 13.6037 15.876 13.829C16.24 14.0457 16.5347 14.3533 16.76 14.752C16.994 15.142 17.111 15.6533 17.111 16.286C17.111 16.858 17.0113 17.3433 16.812 17.742C16.6127 18.132 16.3483 18.4527 16.019 18.704C15.6897 18.9553 15.3127 19.1373 14.888 19.25C14.472 19.3627 14.0387 19.419 13.588 19.419C13.5447 19.419 13.4753 19.419 13.38 19.419C13.2847 19.419 13.185 19.419 13.081 19.419C12.977 19.4103 12.873 19.4017 12.769 19.393C12.6737 19.3843 12.6043 19.3757 12.561 19.367V22.5H10.78V13.491ZM13.432 14.804C13.2587 14.804 13.094 14.8127 12.938 14.83C12.782 14.8387 12.6563 14.8517 12.561 14.869V17.82C12.5957 17.8287 12.6477 17.8373 12.717 17.846C12.7863 17.8547 12.86 17.8633 12.938 17.872C13.016 17.872 13.0897 17.872 13.159 17.872C13.237 17.872 13.2933 17.872 13.328 17.872C13.562 17.872 13.7917 17.8503 14.017 17.807C14.251 17.7637 14.459 17.6857 14.641 17.573C14.823 17.4517 14.966 17.287 15.07 17.079C15.1827 16.871 15.239 16.598 15.239 16.26C15.239 15.974 15.187 15.74 15.083 15.558C14.979 15.3673 14.8403 15.2157 14.667 15.103C14.5023 14.9903 14.3117 14.9123 14.095 14.869C13.8783 14.8257 13.6573 14.804 13.432 14.804ZM19.5195 13.4C19.7015 13.374 19.9051 13.3523 20.1305 13.335C20.3645 13.3177 20.6028 13.3047 20.8455 13.296C21.0881 13.2873 21.3221 13.283 21.5475 13.283C21.7815 13.2743 21.9895 13.27 22.1715 13.27C22.9775 13.27 23.6665 13.3827 24.2385 13.608C24.8105 13.8333 25.2741 14.1497 25.6295 14.557C25.9848 14.9643 26.2448 15.4497 26.4095 16.013C26.5741 16.5763 26.6565 17.196 26.6565 17.872C26.6565 18.4873 26.5785 19.081 26.4225 19.653C26.2665 20.225 26.0065 20.732 25.6425 21.174C25.2785 21.616 24.7975 21.9713 24.1995 22.24C23.6101 22.5087 22.8778 22.643 22.0025 22.643C21.8638 22.643 21.6775 22.6387 21.4435 22.63C21.2181 22.6213 20.9798 22.6083 20.7285 22.591C20.4858 22.5823 20.2518 22.5693 20.0265 22.552C19.8011 22.5433 19.6321 22.5303 19.5195 22.513V13.4ZM22.3145 14.856C22.1238 14.856 21.9288 14.8603 21.7295 14.869C21.5388 14.8777 21.3958 14.8907 21.3005 14.908V21.005C21.3351 21.0137 21.3915 21.0223 21.4695 21.031C21.5561 21.031 21.6471 21.0353 21.7425 21.044C21.8378 21.044 21.9288 21.0483 22.0155 21.057C22.1021 21.057 22.1671 21.057 22.2105 21.057C22.7131 21.057 23.1291 20.9703 23.4585 20.797C23.7965 20.615 24.0608 20.3767 24.2515 20.082C24.4508 19.7873 24.5895 19.4493 24.6675 19.068C24.7455 18.678 24.7845 18.2793 24.7845 17.872C24.7845 17.5167 24.7498 17.1613 24.6805 16.806C24.6111 16.442 24.4811 16.117 24.2905 15.831C24.1085 15.545 23.8571 15.311 23.5365 15.129C23.2158 14.947 22.8085 14.856 22.3145 14.856ZM29.2364 13.4H34.6314V14.986H31.0174V17.235H34.3454V18.821H31.0174V22.5H29.2364V13.4Z" fill="white" />
-								</svg>
 							</li>
 							<li class="services__links-item">
 								<a href="#" class="services__link">
-									Условия определения цены договора и тарифы на работы
+									<span class="services__link-text">Условия определения цены договора и тарифы на
+										работы</span>
+									<svg xmlns="http://www.w3.org/2000/svg" width="46" height="35" viewBox="0 0 46 35" fill="none">
+										<rect y="0.5" width="46" height="34" rx="10" fill="#5DB7DE" />
+										<path d="M10.78 13.491C11.144 13.4217 11.5427 13.3697 11.976 13.335C12.418 13.2917 12.8557 13.27 13.289 13.27C13.7397 13.27 14.1903 13.309 14.641 13.387C15.1003 13.4563 15.512 13.6037 15.876 13.829C16.24 14.0457 16.5347 14.3533 16.76 14.752C16.994 15.142 17.111 15.6533 17.111 16.286C17.111 16.858 17.0113 17.3433 16.812 17.742C16.6127 18.132 16.3483 18.4527 16.019 18.704C15.6897 18.9553 15.3127 19.1373 14.888 19.25C14.472 19.3627 14.0387 19.419 13.588 19.419C13.5447 19.419 13.4753 19.419 13.38 19.419C13.2847 19.419 13.185 19.419 13.081 19.419C12.977 19.4103 12.873 19.4017 12.769 19.393C12.6737 19.3843 12.6043 19.3757 12.561 19.367V22.5H10.78V13.491ZM13.432 14.804C13.2587 14.804 13.094 14.8127 12.938 14.83C12.782 14.8387 12.6563 14.8517 12.561 14.869V17.82C12.5957 17.8287 12.6477 17.8373 12.717 17.846C12.7863 17.8547 12.86 17.8633 12.938 17.872C13.016 17.872 13.0897 17.872 13.159 17.872C13.237 17.872 13.2933 17.872 13.328 17.872C13.562 17.872 13.7917 17.8503 14.017 17.807C14.251 17.7637 14.459 17.6857 14.641 17.573C14.823 17.4517 14.966 17.287 15.07 17.079C15.1827 16.871 15.239 16.598 15.239 16.26C15.239 15.974 15.187 15.74 15.083 15.558C14.979 15.3673 14.8403 15.2157 14.667 15.103C14.5023 14.9903 14.3117 14.9123 14.095 14.869C13.8783 14.8257 13.6573 14.804 13.432 14.804ZM19.5195 13.4C19.7015 13.374 19.9051 13.3523 20.1305 13.335C20.3645 13.3177 20.6028 13.3047 20.8455 13.296C21.0881 13.2873 21.3221 13.283 21.5475 13.283C21.7815 13.2743 21.9895 13.27 22.1715 13.27C22.9775 13.27 23.6665 13.3827 24.2385 13.608C24.8105 13.8333 25.2741 14.1497 25.6295 14.557C25.9848 14.9643 26.2448 15.4497 26.4095 16.013C26.5741 16.5763 26.6565 17.196 26.6565 17.872C26.6565 18.4873 26.5785 19.081 26.4225 19.653C26.2665 20.225 26.0065 20.732 25.6425 21.174C25.2785 21.616 24.7975 21.9713 24.1995 22.24C23.6101 22.5087 22.8778 22.643 22.0025 22.643C21.8638 22.643 21.6775 22.6387 21.4435 22.63C21.2181 22.6213 20.9798 22.6083 20.7285 22.591C20.4858 22.5823 20.2518 22.5693 20.0265 22.552C19.8011 22.5433 19.6321 22.5303 19.5195 22.513V13.4ZM22.3145 14.856C22.1238 14.856 21.9288 14.8603 21.7295 14.869C21.5388 14.8777 21.3958 14.8907 21.3005 14.908V21.005C21.3351 21.0137 21.3915 21.0223 21.4695 21.031C21.5561 21.031 21.6471 21.0353 21.7425 21.044C21.8378 21.044 21.9288 21.0483 22.0155 21.057C22.1021 21.057 22.1671 21.057 22.2105 21.057C22.7131 21.057 23.1291 20.9703 23.4585 20.797C23.7965 20.615 24.0608 20.3767 24.2515 20.082C24.4508 19.7873 24.5895 19.4493 24.6675 19.068C24.7455 18.678 24.7845 18.2793 24.7845 17.872C24.7845 17.5167 24.7498 17.1613 24.6805 16.806C24.6111 16.442 24.4811 16.117 24.2905 15.831C24.1085 15.545 23.8571 15.311 23.5365 15.129C23.2158 14.947 22.8085 14.856 22.3145 14.856ZM29.2364 13.4H34.6314V14.986H31.0174V17.235H34.3454V18.821H31.0174V22.5H29.2364V13.4Z" fill="white" />
+									</svg>
 								</a>
-								<svg xmlns="http://www.w3.org/2000/svg" width="46" height="35" viewBox="0 0 46 35" fill="none">
-									<rect y="0.5" width="46" height="34" rx="10" fill="#5DB7DE" />
-									<path d="M10.78 13.491C11.144 13.4217 11.5427 13.3697 11.976 13.335C12.418 13.2917 12.8557 13.27 13.289 13.27C13.7397 13.27 14.1903 13.309 14.641 13.387C15.1003 13.4563 15.512 13.6037 15.876 13.829C16.24 14.0457 16.5347 14.3533 16.76 14.752C16.994 15.142 17.111 15.6533 17.111 16.286C17.111 16.858 17.0113 17.3433 16.812 17.742C16.6127 18.132 16.3483 18.4527 16.019 18.704C15.6897 18.9553 15.3127 19.1373 14.888 19.25C14.472 19.3627 14.0387 19.419 13.588 19.419C13.5447 19.419 13.4753 19.419 13.38 19.419C13.2847 19.419 13.185 19.419 13.081 19.419C12.977 19.4103 12.873 19.4017 12.769 19.393C12.6737 19.3843 12.6043 19.3757 12.561 19.367V22.5H10.78V13.491ZM13.432 14.804C13.2587 14.804 13.094 14.8127 12.938 14.83C12.782 14.8387 12.6563 14.8517 12.561 14.869V17.82C12.5957 17.8287 12.6477 17.8373 12.717 17.846C12.7863 17.8547 12.86 17.8633 12.938 17.872C13.016 17.872 13.0897 17.872 13.159 17.872C13.237 17.872 13.2933 17.872 13.328 17.872C13.562 17.872 13.7917 17.8503 14.017 17.807C14.251 17.7637 14.459 17.6857 14.641 17.573C14.823 17.4517 14.966 17.287 15.07 17.079C15.1827 16.871 15.239 16.598 15.239 16.26C15.239 15.974 15.187 15.74 15.083 15.558C14.979 15.3673 14.8403 15.2157 14.667 15.103C14.5023 14.9903 14.3117 14.9123 14.095 14.869C13.8783 14.8257 13.6573 14.804 13.432 14.804ZM19.5195 13.4C19.7015 13.374 19.9051 13.3523 20.1305 13.335C20.3645 13.3177 20.6028 13.3047 20.8455 13.296C21.0881 13.2873 21.3221 13.283 21.5475 13.283C21.7815 13.2743 21.9895 13.27 22.1715 13.27C22.9775 13.27 23.6665 13.3827 24.2385 13.608C24.8105 13.8333 25.2741 14.1497 25.6295 14.557C25.9848 14.9643 26.2448 15.4497 26.4095 16.013C26.5741 16.5763 26.6565 17.196 26.6565 17.872C26.6565 18.4873 26.5785 19.081 26.4225 19.653C26.2665 20.225 26.0065 20.732 25.6425 21.174C25.2785 21.616 24.7975 21.9713 24.1995 22.24C23.6101 22.5087 22.8778 22.643 22.0025 22.643C21.8638 22.643 21.6775 22.6387 21.4435 22.63C21.2181 22.6213 20.9798 22.6083 20.7285 22.591C20.4858 22.5823 20.2518 22.5693 20.0265 22.552C19.8011 22.5433 19.6321 22.5303 19.5195 22.513V13.4ZM22.3145 14.856C22.1238 14.856 21.9288 14.8603 21.7295 14.869C21.5388 14.8777 21.3958 14.8907 21.3005 14.908V21.005C21.3351 21.0137 21.3915 21.0223 21.4695 21.031C21.5561 21.031 21.6471 21.0353 21.7425 21.044C21.8378 21.044 21.9288 21.0483 22.0155 21.057C22.1021 21.057 22.1671 21.057 22.2105 21.057C22.7131 21.057 23.1291 20.9703 23.4585 20.797C23.7965 20.615 24.0608 20.3767 24.2515 20.082C24.4508 19.7873 24.5895 19.4493 24.6675 19.068C24.7455 18.678 24.7845 18.2793 24.7845 17.872C24.7845 17.5167 24.7498 17.1613 24.6805 16.806C24.6111 16.442 24.4811 16.117 24.2905 15.831C24.1085 15.545 23.8571 15.311 23.5365 15.129C23.2158 14.947 22.8085 14.856 22.3145 14.856ZM29.2364 13.4H34.6314V14.986H31.0174V17.235H34.3454V18.821H31.0174V22.5H29.2364V13.4Z" fill="white" />
-								</svg>
 							</li>
 							<li class="services__links-item">
 								<a href="#" class="services__link">
-									Договор перевалки (типовая форма)
+									<span class="services__link-text">Договор перевалки (типовая форма)</span>
+									<svg xmlns="http://www.w3.org/2000/svg" width="46" height="35" viewBox="0 0 46 35" fill="none">
+										<rect y="0.5" width="46" height="34" rx="10" fill="#5DB7DE" />
+										<path d="M10.78 13.491C11.144 13.4217 11.5427 13.3697 11.976 13.335C12.418 13.2917 12.8557 13.27 13.289 13.27C13.7397 13.27 14.1903 13.309 14.641 13.387C15.1003 13.4563 15.512 13.6037 15.876 13.829C16.24 14.0457 16.5347 14.3533 16.76 14.752C16.994 15.142 17.111 15.6533 17.111 16.286C17.111 16.858 17.0113 17.3433 16.812 17.742C16.6127 18.132 16.3483 18.4527 16.019 18.704C15.6897 18.9553 15.3127 19.1373 14.888 19.25C14.472 19.3627 14.0387 19.419 13.588 19.419C13.5447 19.419 13.4753 19.419 13.38 19.419C13.2847 19.419 13.185 19.419 13.081 19.419C12.977 19.4103 12.873 19.4017 12.769 19.393C12.6737 19.3843 12.6043 19.3757 12.561 19.367V22.5H10.78V13.491ZM13.432 14.804C13.2587 14.804 13.094 14.8127 12.938 14.83C12.782 14.8387 12.6563 14.8517 12.561 14.869V17.82C12.5957 17.8287 12.6477 17.8373 12.717 17.846C12.7863 17.8547 12.86 17.8633 12.938 17.872C13.016 17.872 13.0897 17.872 13.159 17.872C13.237 17.872 13.2933 17.872 13.328 17.872C13.562 17.872 13.7917 17.8503 14.017 17.807C14.251 17.7637 14.459 17.6857 14.641 17.573C14.823 17.4517 14.966 17.287 15.07 17.079C15.1827 16.871 15.239 16.598 15.239 16.26C15.239 15.974 15.187 15.74 15.083 15.558C14.979 15.3673 14.8403 15.2157 14.667 15.103C14.5023 14.9903 14.3117 14.9123 14.095 14.869C13.8783 14.8257 13.6573 14.804 13.432 14.804ZM19.5195 13.4C19.7015 13.374 19.9051 13.3523 20.1305 13.335C20.3645 13.3177 20.6028 13.3047 20.8455 13.296C21.0881 13.2873 21.3221 13.283 21.5475 13.283C21.7815 13.2743 21.9895 13.27 22.1715 13.27C22.9775 13.27 23.6665 13.3827 24.2385 13.608C24.8105 13.8333 25.2741 14.1497 25.6295 14.557C25.9848 14.9643 26.2448 15.4497 26.4095 16.013C26.5741 16.5763 26.6565 17.196 26.6565 17.872C26.6565 18.4873 26.5785 19.081 26.4225 19.653C26.2665 20.225 26.0065 20.732 25.6425 21.174C25.2785 21.616 24.7975 21.9713 24.1995 22.24C23.6101 22.5087 22.8778 22.643 22.0025 22.643C21.8638 22.643 21.6775 22.6387 21.4435 22.63C21.2181 22.6213 20.9798 22.6083 20.7285 22.591C20.4858 22.5823 20.2518 22.5693 20.0265 22.552C19.8011 22.5433 19.6321 22.5303 19.5195 22.513V13.4ZM22.3145 14.856C22.1238 14.856 21.9288 14.8603 21.7295 14.869C21.5388 14.8777 21.3958 14.8907 21.3005 14.908V21.005C21.3351 21.0137 21.3915 21.0223 21.4695 21.031C21.5561 21.031 21.6471 21.0353 21.7425 21.044C21.8378 21.044 21.9288 21.0483 22.0155 21.057C22.1021 21.057 22.1671 21.057 22.2105 21.057C22.7131 21.057 23.1291 20.9703 23.4585 20.797C23.7965 20.615 24.0608 20.3767 24.2515 20.082C24.4508 19.7873 24.5895 19.4493 24.6675 19.068C24.7455 18.678 24.7845 18.2793 24.7845 17.872C24.7845 17.5167 24.7498 17.1613 24.6805 16.806C24.6111 16.442 24.4811 16.117 24.2905 15.831C24.1085 15.545 23.8571 15.311 23.5365 15.129C23.2158 14.947 22.8085 14.856 22.3145 14.856ZM29.2364 13.4H34.6314V14.986H31.0174V17.235H34.3454V18.821H31.0174V22.5H29.2364V13.4Z" fill="white" />
+									</svg>
 								</a>
-								<svg xmlns="http://www.w3.org/2000/svg" width="46" height="35" viewBox="0 0 46 35" fill="none">
-									<rect y="0.5" width="46" height="34" rx="10" fill="#5DB7DE" />
-									<path d="M10.78 13.491C11.144 13.4217 11.5427 13.3697 11.976 13.335C12.418 13.2917 12.8557 13.27 13.289 13.27C13.7397 13.27 14.1903 13.309 14.641 13.387C15.1003 13.4563 15.512 13.6037 15.876 13.829C16.24 14.0457 16.5347 14.3533 16.76 14.752C16.994 15.142 17.111 15.6533 17.111 16.286C17.111 16.858 17.0113 17.3433 16.812 17.742C16.6127 18.132 16.3483 18.4527 16.019 18.704C15.6897 18.9553 15.3127 19.1373 14.888 19.25C14.472 19.3627 14.0387 19.419 13.588 19.419C13.5447 19.419 13.4753 19.419 13.38 19.419C13.2847 19.419 13.185 19.419 13.081 19.419C12.977 19.4103 12.873 19.4017 12.769 19.393C12.6737 19.3843 12.6043 19.3757 12.561 19.367V22.5H10.78V13.491ZM13.432 14.804C13.2587 14.804 13.094 14.8127 12.938 14.83C12.782 14.8387 12.6563 14.8517 12.561 14.869V17.82C12.5957 17.8287 12.6477 17.8373 12.717 17.846C12.7863 17.8547 12.86 17.8633 12.938 17.872C13.016 17.872 13.0897 17.872 13.159 17.872C13.237 17.872 13.2933 17.872 13.328 17.872C13.562 17.872 13.7917 17.8503 14.017 17.807C14.251 17.7637 14.459 17.6857 14.641 17.573C14.823 17.4517 14.966 17.287 15.07 17.079C15.1827 16.871 15.239 16.598 15.239 16.26C15.239 15.974 15.187 15.74 15.083 15.558C14.979 15.3673 14.8403 15.2157 14.667 15.103C14.5023 14.9903 14.3117 14.9123 14.095 14.869C13.8783 14.8257 13.6573 14.804 13.432 14.804ZM19.5195 13.4C19.7015 13.374 19.9051 13.3523 20.1305 13.335C20.3645 13.3177 20.6028 13.3047 20.8455 13.296C21.0881 13.2873 21.3221 13.283 21.5475 13.283C21.7815 13.2743 21.9895 13.27 22.1715 13.27C22.9775 13.27 23.6665 13.3827 24.2385 13.608C24.8105 13.8333 25.2741 14.1497 25.6295 14.557C25.9848 14.9643 26.2448 15.4497 26.4095 16.013C26.5741 16.5763 26.6565 17.196 26.6565 17.872C26.6565 18.4873 26.5785 19.081 26.4225 19.653C26.2665 20.225 26.0065 20.732 25.6425 21.174C25.2785 21.616 24.7975 21.9713 24.1995 22.24C23.6101 22.5087 22.8778 22.643 22.0025 22.643C21.8638 22.643 21.6775 22.6387 21.4435 22.63C21.2181 22.6213 20.9798 22.6083 20.7285 22.591C20.4858 22.5823 20.2518 22.5693 20.0265 22.552C19.8011 22.5433 19.6321 22.5303 19.5195 22.513V13.4ZM22.3145 14.856C22.1238 14.856 21.9288 14.8603 21.7295 14.869C21.5388 14.8777 21.3958 14.8907 21.3005 14.908V21.005C21.3351 21.0137 21.3915 21.0223 21.4695 21.031C21.5561 21.031 21.6471 21.0353 21.7425 21.044C21.8378 21.044 21.9288 21.0483 22.0155 21.057C22.1021 21.057 22.1671 21.057 22.2105 21.057C22.7131 21.057 23.1291 20.9703 23.4585 20.797C23.7965 20.615 24.0608 20.3767 24.2515 20.082C24.4508 19.7873 24.5895 19.4493 24.6675 19.068C24.7455 18.678 24.7845 18.2793 24.7845 17.872C24.7845 17.5167 24.7498 17.1613 24.6805 16.806C24.6111 16.442 24.4811 16.117 24.2905 15.831C24.1085 15.545 23.8571 15.311 23.5365 15.129C23.2158 14.947 22.8085 14.856 22.3145 14.856ZM29.2364 13.4H34.6314V14.986H31.0174V17.235H34.3454V18.821H31.0174V22.5H29.2364V13.4Z" fill="white" />
-								</svg>
 							</li>
 						</ul>
 					</div>
-					<ul class="services__services-list card-span">
-						<li class="services__services-item">
-							<span>услуги</span>
-							<span>Хранение грузов</span>
+					<ul class="list-reset services__services-list card-span">
+						<li class="card-item services__services-item">
+							<span class="card-item__span services__services-text">услуги</span>
+							<h3 class="card-item__title services__services-title">
+								Хранение грузов
+							</h3>
 						</li>
-						<li class="services__services-item">
-							<span>услуги</span>
-							<span>Швартовые операции</span>
+						<li class="card-item services__services-item">
+							<span class="card-item__span services__services-text">услуги</span>
+							<h3 class="card-item__title services__services-title">
+								Швартовые операции
+							</h3>
 						</li>
-						<li class="services__services-item">
-							<span>услуги</span>
-							<span>Складские операции</span>
+						<li class="card-item services__services-item">
+							<span class="card-item__span services__services-text">услуги</span>
+							<h3 class="card-item__title services__services-title">
+								Складские операции
+							</h3>
 						</li>
-						<li class="services__services-item">
-							<span>услуги</span>
-							<span>Агентское обслуживание судов</span>
+						<li class="card-item services__services-item">
+							<span class="card-item__span services__services-text">услуги</span>
+							<h3 class="card-item__title services__services-title">
+								Агентское обслуживание судов
+							</h3>
 						</li>
-						<li class="services__services-item">
-							<span>услуги</span>
-							<span>Буксировка / сопровождение судов</span>
+						<li class="card-item services__services-item">
+							<span class="card-item__span services__services-text">услуги</span>
+							<h3 class="card-item__title services__services-title">
+								Буксировка / сопровождение судов
+							</h3>
 						</li>
-						<li class="services__services-item">
-							<span>услуги</span>
-							<span>Погрузочно-разгрузочная деятельность</span>
+						<li class="card-item services__services-item">
+							<span class="card-item__span services__services-text">услуги</span>
+							<h3 class="card-item__title services__services-title">
+								Погрузочно-разгрузочная деятельность
+							</h3>
 						</li>
 					</ul>
 				</div>
@@ -260,7 +273,7 @@
 								Libero nunc porttitor id mi convallis ultricies convallis
 								erat. At sagittis nisi at in diam sit.
 							</p>
-							<ul class="about__text-list">
+							<ul class="list-reset about__text-list">
 								<li class="about__text-item">
 									Vivamus tincidunt non lectus odio magna semper odio
 									risus.
@@ -289,7 +302,7 @@
 								vitae nibh rhoncus at nisl. Duis nibh libero ut enim. Metus
 								aliquam cursus molestie sapien risus. Suspendisse volutpat.
 							</p>
-							<ul class="about__text-list">
+							<ul class="list-reset about__text-list">
 								<li class="about__text-item">
 									Vivamus tincidunt non lectus odio magna semper odio
 									risus.
@@ -310,21 +323,21 @@
 						</div>
 						<div class="about__content-media">
 							<div class="about__content-video-wrapper">
-								<video class="about__content-video" src="" poster="img/video-poster.png"></video>
+								<video class="about__content-video" src="#" poster="img/video-poster.png"></video>
 								<div class="about__content-video-play">
 									<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M31.6666 31.0833V48.9167C31.6666 50.1945 32.25 51.1667 33.4166 51.8333C34.5833 52.5 35.7222 52.4444 36.8333 51.6667L50.6666 42.8333C51.7222 42.1667 52.25 41.2222 52.25 40C52.25 38.7778 51.7222 37.8333 50.6666 37.1667L36.8333 28.3333C35.7222 27.5556 34.5833 27.5 33.4166 28.1667C32.25 28.8333 31.6666 29.8056 31.6666 31.0833ZM40 73.3333C35.3888 73.3333 31.0555 72.4578 27 70.7067C22.9444 68.9578 19.4166 66.5833 16.4166 63.5833C13.4166 60.5833 11.0422 57.0556 9.29329 53C7.54218 48.9444 6.66663 44.6111 6.66663 40C6.66663 35.3889 7.54218 31.0556 9.29329 27C11.0422 22.9445 13.4166 19.4167 16.4166 16.4167C19.4166 13.4167 22.9444 11.0411 27 9.29C31.0555 7.54112 35.3888 6.66667 40 6.66667C44.6111 6.66667 48.9444 7.54112 53 9.29C57.0555 11.0411 60.5833 13.4167 63.5833 16.4167C66.5833 19.4167 68.9577 22.9445 70.7066 27C72.4577 31.0556 73.3333 35.3889 73.3333 40C73.3333 44.6111 72.4577 48.9444 70.7066 53C68.9577 57.0556 66.5833 60.5833 63.5833 63.5833C60.5833 66.5833 57.0555 68.9578 53 70.7067C48.9444 72.4578 44.6111 73.3333 40 73.3333Z" fill="white" />
 									</svg>
 								</div>
 							</div>
-							<div class="card-span about__content-descr">
-								<span>
+							<div class="card-item about__content-descr">
+								<span class="card-item__span">
 									Запрос ставки и условий погрузочно-разгрузочных работ
 								</span>
-								<span>
+								<h3 class="card-item__title">
 									Рассчитайте моментально стоимость полных портовых услуг
 									в порту VISMA
-								</span>
+								</h3>
 							</div>
 						</div>
 					</div>
@@ -342,7 +355,7 @@
 						</a>
 					</div>
 					<div class="news__bottom">
-						<!-- <ul class="news__list grid">
+						<!-- <ul class="list-reset news__list grid">
                 <li class="news__item">
                     <a href="#" class="news__item-link">
                         <img
@@ -439,7 +452,7 @@
                 </li>
             </ul> -->
 						<div class="news-wrapper">
-							<button class="news-btn swiper-button-prev">
+							<button class="btn-reset news-btn swiper-button-prev">
 								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="40" viewBox="0 0 25 40" fill="none">
 									<path d="M3.23401 21.7654C2.25745 20.7888 2.25745 19.2029 3.23401 18.2263L15.734 5.72632C16.7106 4.74976 18.2965 4.74976 19.2731 5.72632C20.2496 6.70288 20.2496 8.28882 19.2731 9.26539L8.5387 19.9998L19.2653 30.7341C20.2418 31.7107 20.2418 33.2966 19.2653 34.2732C18.2887 35.2498 16.7028 35.2498 15.7262 34.2732L3.2262 21.7732L3.23401 21.7654Z" fill="#fff" />
 								</svg>
@@ -447,75 +460,86 @@
 							<div class="news__slider swiper">
 								<div class="news__wrapper swiper-wrapper">
 									<div class="news__slide swiper-slide">
-										<a href="#" class="news__item-link">
-											<picture><source srcset="img/news-1.webp, img/news-1_2x.webp 2x" type="image/webp"><img src="img/news-1.jpg" srcset="img/news-1_2x.jpg 2x" loading="lazy" alt="" width="306" class="news__image" /></picture>
-											<time class="news__date" datetime="2022-05-20">
-												20/05/22
-											</time>
-											<h3 class="news__item-title">
-												Semper eu pulvinar eget integer
-											</h3>
-											<p class="news__item-text">
-												Pretium duis phasellus netus ac. Nunc nibh
-												nunc integer feugiat et aliquam cras. Amet
-												pharetra montes ipsum gravida tellus tellus.
-											</p>
-										</a>
+										<article class="news-card">
+											<a href="#" class="news__item-link">
+												<picture><source srcset="img/news-1.webp, img/news-1_2x.webp 2x" type="image/webp"><img src="img/news-1.jpg" srcset="img/news-1_2x.jpg 2x" loading="lazy" alt="" width="306" class="image news__image" /></picture>
+												<time class="news__date" datetime="2022-05-20">
+													20/05/22
+												</time>
+												<h3 class="news__item-title">
+													Semper eu pulvinar eget integer
+												</h3>
+												<p class="news__item-text">
+													Pretium duis phasellus netus ac. Nunc
+													nibh nunc integer feugiat et aliquam
+													cras. Amet pharetra montes ipsum gravida
+													tellus tellus.
+												</p>
+											</a>
+										</article>
 									</div>
 									<div class="news__slide swiper-slide">
-										<a href="#" class="news__item-link">
-											<picture><source srcset="img/news-2.webp, img/news-2_2x.webp 2x" type="image/webp"><img src="img/news-2.jpg" srcset="img/news-2_2x.jpg 2x" loading="lazy" alt="" width="306" class="news__image" /></picture>
-											<time class="news__date" datetime="2022-02-20">
-												20/02/22
-											</time>
-											<h3 class="news__item-title">
-												Vitae id nec nulla sit nunc cursus curabitur
-												tempus vel enim.
-											</h3>
-											<p class="news__item-text">
-												Cras arcu ac commodo suspendisse commodo
-												ipsum turpis dui. Quis pharetra malesuada
-												eget sit egestas et integer. Suspendisse a.
-											</p>
-										</a>
+										<article class="news-card">
+											<a href="#" class="news__item-link">
+												<picture><source srcset="img/news-2.webp, img/news-2_2x.webp 2x" type="image/webp"><img src="img/news-2.jpg" srcset="img/news-2_2x.jpg 2x" loading="lazy" alt="" width="306" class="image news__image" /></picture>
+												<time class="news__date" datetime="2022-02-20">
+													20/02/22
+												</time>
+												<h3 class="news__item-title">
+													Vitae id nec nulla sit nunc cursus
+													curabitur tempus vel enim.
+												</h3>
+												<p class="news__item-text">
+													Cras arcu ac commodo suspendisse commodo
+													ipsum turpis dui. Quis pharetra
+													malesuada eget sit egestas et integer.
+													Suspendisse a.
+												</p>
+											</a>
+										</article>
 									</div>
 									<div class="news__slide swiper-slide">
-										<a href="#" class="news__item-link">
-											<picture><source srcset="img/news-3.webp, img/news-3_2x.webp 2x" type="image/webp"><img src="img/news-3.jpg" srcset="img/news-3_2x.jpg 2x" loading="lazy" alt="" width="306" class="news__image" /></picture>
-											<time class="news__date" datetime="2021-12-30">
-												30/12/21
-											</time>
-											<h3 class="news__item-title">
-												Integer nisi sagittis in aliquet. Enim eget
-												varius lacinia est a.
-											</h3>
-											<p class="news__item-text">
-												Lectus tempus felis pretium vitae. Tempor
-												massa vestibulum condimentum cursus diam
-												quam. Mattis facilisi dignissim donec eget
-												vel.
-											</p>
-										</a>
+										<article class="news-card">
+											<a href="#" class="news__item-link">
+												<picture><source srcset="img/news-3.webp, img/news-3_2x.webp 2x" type="image/webp"><img src="img/news-3.jpg" srcset="img/news-3_2x.jpg 2x" loading="lazy" alt="" width="306" class="image news__image" /></picture>
+												<time class="news__date" datetime="2021-12-30">
+													30/12/21
+												</time>
+												<h3 class="news__item-title">
+													Integer nisi sagittis in aliquet. Enim
+													eget varius lacinia est a.
+												</h3>
+												<p class="news__item-text">
+													Lectus tempus felis pretium vitae.
+													Tempor massa vestibulum condimentum
+													cursus diam quam. Mattis facilisi
+													dignissim donec eget vel.
+												</p>
+											</a>
+										</article>
 									</div>
 									<div class="news__slide swiper-slide">
-										<a href="#" class="news__item-link">
-											<picture><source srcset="img/news-4.webp, img/news-4_2x.webp 2x" type="image/webp"><img src="img/news-4.jpg" srcset="img/news-4_2x.jpg 2x" loading="lazy" alt="" width="306" class="news__image" /></picture>
-											<time class="news__date" datetime="2021-06-29">
-												29/06/21
-											</time>
-											<h3 class="news__item-title">
-												Facilisis vitae proin quis
-											</h3>
-											<p class="news__item-text">
-												Iaculis diam quam velit sit nunc turpis
-												ultricies elementum. Vitae lacinia tristique
-												rutrum faucibus nulla quis ultricies. Risus.
-											</p>
-										</a>
+										<article class="news-card">
+											<a href="#" class="news__item-link">
+												<picture><source srcset="img/news-4.webp, img/news-4_2x.webp 2x" type="image/webp"><img src="img/news-4.jpg" srcset="img/news-4_2x.jpg 2x" loading="lazy" alt="" width="306" class="image news__image" /></picture>
+												<time class="news__date" datetime="2021-06-29">
+													29/06/21
+												</time>
+												<h3 class="news__item-title">
+													Facilisis vitae proin quis
+												</h3>
+												<p class="news__item-text">
+													Iaculis diam quam velit sit nunc turpis
+													ultricies elementum. Vitae lacinia
+													tristique rutrum faucibus nulla quis
+													ultricies. Risus.
+												</p>
+											</a>
+										</article>
 									</div>
 								</div>
 							</div>
-							<button class="news-btn swiper-button-next">
+							<button class="btn-reset news-btn swiper-button-next">
 								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="40" viewBox="0 0 25 40" fill="none">
 									<path d="M21.7656 18.2344C22.7422 19.2109 22.7422 20.7969 21.7656 21.7734L9.26562 34.2734C8.28906 35.25 6.70312 35.25 5.72656 34.2734C4.75 33.2969 4.75 31.7109 5.72656 30.7344L16.4609 20L5.73437 9.26562C4.75781 8.28906 4.75781 6.70312 5.73437 5.72656C6.71094 4.75 8.29687 4.75 9.27344 5.72656L21.7734 18.2266L21.7656 18.2344Z" fill="#fff" />
 								</svg>
@@ -564,8 +588,8 @@
 			</div>
 			<div class="footer__bottom">
 				<div class="container footer__container footer__bottom-container grid">
-					<ul class="footer__bottom-list">
-						<li>
+					<ul class="list-reset footer__bottom-list">
+						<li class="footer__bottom-item">
 							<h2 class="footer__bottom-title">информация о юр. лице</h2>
 						</li>
 						<li class="footer__bottom-item">
@@ -584,8 +608,8 @@
 							<a href="#">ОКТМО 5555555555555</a>
 						</li>
 					</ul>
-					<ul class="footer__bottom-list">
-						<li>
+					<ul class="list-reset footer__bottom-list">
+						<li class="footer__bottom-item">
 							<h2 class="footer__bottom-title">Закупки</h2>
 						</li>
 						<li class="footer__bottom-item">
@@ -598,8 +622,8 @@
 							<a href="#">Закупки на VISMA Tender</a>
 						</li>
 					</ul>
-					<ul class="footer__bottom-list">
-						<li>
+					<ul class="list-reset footer__bottom-list">
+						<li class="footer__bottom-item">
 							<h2 class="footer__bottom-title">акционерам</h2>
 						</li>
 						<li class="footer__bottom-item"><a href="#">Устав VISMA</a></li>
@@ -612,8 +636,8 @@
 						<li class="footer__bottom-item"><a href="#">Информация</a></li>
 						<li class="footer__bottom-item"><a href="#">Отчеты</a></li>
 					</ul>
-					<ul class="footer__bottom-list">
-						<li>
+					<ul class="list-reset footer__bottom-list">
+						<li class="footer__bottom-item">
 							<h2 class="footer__bottom-title">о компании</h2>
 						</li>
 						<li class="footer__bottom-item">
@@ -640,7 +664,7 @@
 		</footer>
 
 	</div>
-	<script src="js/app.min.js?_v=20230712172053"></script>
+	<script src="js/app.min.js?_v=20230713192803"></script>
 </body>
 
 </html>

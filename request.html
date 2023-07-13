@@ -1,17 +1,17 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<title>RequestPage</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230712172053">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230713192803">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
+<body class="body">
 	<div class="wrapper">
 		<header class="header">
 			<div class="container header__container">
@@ -22,24 +22,24 @@
 				</a>
 
 				<div class="header__mobile-menu" data-menu>
-					<div class="header__mobile-menu--flex">
+					<div class="header__mobile-flex">
 						<div class="header__search header__search--mobile">
-							<button class="header__search-btn">
+							<button class="btn-reset header__search-btn">
 								<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
 									<path d="M17.9719 15.7301H16.971L16.6163 15.3882C17.408 14.4689 17.9867 13.386 18.3109 12.2171C18.635 11.0482 18.6966 9.82217 18.4913 8.62668C17.8959 5.10665 14.9566 2.29569 11.4091 1.86518C10.162 1.7075 8.89525 1.83704 7.7059 2.24389C6.51654 2.65074 5.43607 3.32412 4.54717 4.2125C3.65826 5.10088 2.98449 6.18072 2.5774 7.36938C2.17031 8.55804 2.04069 9.82402 2.19847 11.0704C2.62923 14.6158 5.44184 17.5534 8.96394 18.1485C10.1601 18.3537 11.3869 18.2921 12.5565 17.9681C13.7261 17.6442 14.8096 17.0658 15.7294 16.2745L16.0715 16.6291V17.6294L21.456 23.0107C21.9754 23.5298 22.8243 23.5298 23.3437 23.0107C23.8632 22.4916 23.8632 21.6432 23.3437 21.1241L17.9719 15.7301ZM10.3702 15.7301C7.21556 15.7301 4.66901 13.185 4.66901 10.0322C4.66901 6.87933 7.21556 4.33427 10.3702 4.33427C13.5249 4.33427 16.0715 6.87933 16.0715 10.0322C16.0715 13.185 13.5249 15.7301 10.3702 15.7301Z" fill="#3D348B" />
 								</svg>
 							</button>
-							<input class="header__search-input header__search-input--mobile" type="text" />
+							<input class="input-reset header__search-input header__search-input--mobile" type="text" />
 						</div>
 
-						<select name="form[]" data-class-modif="form" class="header__language--mobile">
+						<select name="form[]" data-class-modif="form" class="select-reset header__language header__language--mobile">
 							<option value="1" selected>RU</option>
 							<option value="2">EN</option>
 						</select>
 					</div>
 
 					<nav class="header__navigation">
-						<ul class="header__list">
+						<ul class="list-reset header__list">
 							<!-- <li class="header__item">
                         <a href="#" class="header__link" data-menu-item
                             >О компании</a
@@ -123,20 +123,20 @@
 				</div>
 
 				<div class="header__search">
-					<button class="header__search-btn">
+					<button class="btn-reset header__search-btn">
 						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
 							<path d="M17.9719 15.7301H16.971L16.6163 15.3882C17.408 14.4689 17.9867 13.386 18.3109 12.2171C18.635 11.0482 18.6966 9.82217 18.4913 8.62668C17.8959 5.10665 14.9566 2.29569 11.4091 1.86518C10.162 1.7075 8.89525 1.83704 7.7059 2.24389C6.51654 2.65074 5.43607 3.32412 4.54717 4.2125C3.65826 5.10088 2.98449 6.18072 2.5774 7.36938C2.17031 8.55804 2.04069 9.82402 2.19847 11.0704C2.62923 14.6158 5.44184 17.5534 8.96394 18.1485C10.1601 18.3537 11.3869 18.2921 12.5565 17.9681C13.7261 17.6442 14.8096 17.0658 15.7294 16.2745L16.0715 16.6291V17.6294L21.456 23.0107C21.9754 23.5298 22.8243 23.5298 23.3437 23.0107C23.8632 22.4916 23.8632 21.6432 23.3437 21.1241L17.9719 15.7301ZM10.3702 15.7301C7.21556 15.7301 4.66901 13.185 4.66901 10.0322C4.66901 6.87933 7.21556 4.33427 10.3702 4.33427C13.5249 4.33427 16.0715 6.87933 16.0715 10.0322C16.0715 13.185 13.5249 15.7301 10.3702 15.7301Z" fill="#3D348B" />
 						</svg>
 					</button>
-					<input class="header__search-input" type="text" />
+					<input class="input-reset header__search-input" type="text" />
 				</div>
 
-				<select name="form[]" data-class-modif="form" class="header__language">
+				<select name="form[]" data-class-modif="form" class="select-reset header__language">
 					<option value="1" selected>RU</option>
 					<option value="2">EN</option>
 				</select>
 
-				<button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+				<button class="btn-reset burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
 					<span class="burger__line"></span>
 				</button>
 			</div>
@@ -145,7 +145,8 @@
 		<main class="page" data-menu-overlay>
 			<section class="breadcrumbs">
 				<div class="container breadcrumbs__container">
-					<ul class="breadcrumbs__list">
+					<h1 class="breadcrumbs__title">Breadcrumbs</h1>
+					<ul class="list-reset breadcrumbs__list">
 						<li class="breadcrumbs__item">
 							<a href="index.html" class="breadcrumbs__link">Главная</a>
 						</li>
@@ -168,17 +169,17 @@
 						<div class="request__form-top">
 							<div class="request__form-group">
 								<label for="shipping-name">Наименование груза *</label>
-								<input type="text" class="request__input" id="shipping-name" required />
+								<input type="text" class="input-reset request__input" id="shipping-name" required />
 							</div>
 							<div class="request__form-group">
 								<label for="cargo-size">Размер партии *</label>
-								<input type="text" class="request__input" id="cargo-size" required />
+								<input type="text" class="input-reset request__input" id="cargo-size" required />
 							</div>
 							<div class="request__form-group">
 								<label for="unit">Ед. измерения *</label>
 								<div class="request__select-wrapper">
-									<select name="form[]" data-class-modif="form" class="request__select" id="unit" required>
-										<option value="" selected></option>
+									<select name="form[]" data-class-modif="form" class="select-reset request__select" id="unit" required>
+										<option value="" selected hidden label=" "></option>
 										<option value="1">Пункт №1</option>
 										<option value="2">Пункт №2</option>
 										<option value="3">Пункт №3</option>
@@ -188,8 +189,8 @@
 							<div class="request__form-group">
 								<label for="cargo-direction">Ед. измерения *</label>
 								<div class="request__select-wrapper">
-									<select name="form[]" data-class-modif="form" class="request__select" id="cargo-direction" required>
-										<option value="" selected></option>
+									<select name="form[]" data-class-modif="form" class="select-reset request__select" id="cargo-direction" required>
+										<option value="" selected hidden label=" "></option>
 										<option value="1">Пункт №1</option>
 										<option value="2">Пункт №2</option>
 										<option value="3">Пункт №3</option>
@@ -198,14 +199,14 @@
 							</div>
 							<div class="request__form-group">
 								<label for="cargo-size">Пункт назначения перевозки</label>
-								<input type="text" class="request__input" id="destination" />
+								<input type="text" class="input-reset request__input" id="destination" />
 							</div>
 							<div class="request__form-group">
 								<label for="entry-period">Период поступления груза к
 									перевалке</label>
 								<div class="request__select-wrapper">
-									<select name="form[]" data-class-modif="form" class="request__select" id="entry-period">
-										<option value="" selected></option>
+									<select name="form[]" data-class-modif="form" class="select-reset request__select" id="entry-period">
+										<option value="" selected hidden label=" "></option>
 										<option value="1">Пункт №1</option>
 										<option value="2">Пункт №2</option>
 										<option value="3">Пункт №3</option>
@@ -215,8 +216,8 @@
 							<div class="request__form-group">
 								<label for="cargo-arrives">Груз поступает в порт</label>
 								<div class="request__select-wrapper">
-									<select name="form[]" data-class-modif="form" class="request__select" id="cargo-arrives">
-										<option value="" selected></option>
+									<select name="form[]" data-class-modif="form" class="select-reset request__select" id="cargo-arrives">
+										<option value="" selected hidden label=" "></option>
 										<option value="1">Пункт №1</option>
 										<option value="2">Пункт №2</option>
 										<option value="3">Пункт №3</option>
@@ -226,8 +227,8 @@
 							<div class="request__form-group">
 								<label for="cargo-sent">Груз отправляется из порта</label>
 								<div class="request__select-wrapper">
-									<select name="form[]" data-class-modif="form" class="request__select" id="cargo-sent">
-										<option value="" selected></option>
+									<select name="form[]" data-class-modif="form" class="select-reset request__select" id="cargo-sent">
+										<option value="" selected hidden label=" "></option>
 										<option value="1">Пункт №1</option>
 										<option value="2">Пункт №2</option>
 										<option value="3">Пункт №3</option>
@@ -236,21 +237,21 @@
 							</div>
 							<div class="request__form-group">
 								<label for="lot-size">Размер судовой партии</label>
-								<input type="text" class="request__input" id="lot-size" />
+								<input type="text" class="input-reset request__input" id="lot-size" />
 							</div>
 							<div class="request__form-group">
 								<label for="cargo-danger">Опасность груза (класс)</label>
-								<input type="text" class="request__input" id="cargo-danger" />
+								<input type="text" class="input-reset request__input" id="cargo-danger" />
 							</div>
 							<div class="request__form-group">
 								<label for="additional-info">Дополнительная информация о
 									грузе:</label>
-								<textarea type="text" class="request__textarea" id="additional-info" rows="5"></textarea>
+								<textarea class="input-reset request__textarea" id="additional-info" rows="5"></textarea>
 							</div>
 							<div class="request__form-group">
-								<label for="additional-info">Прикрепить файл
+								<label for="attach-file">Прикрепить файл
 								</label>
-								<input type="file" class="request__input" id="additional-info" />
+								<input type="file" class="input-reset request__input" id="attach-file" />
 							</div>
 						</div>
 
@@ -260,20 +261,20 @@
 							</h2>
 							<div class="request__form-checkboxes">
 								<label for="prr-rate">
-									<input type="checkbox" class="request__checkbox" id="prr-rate" />
+									<input type="checkbox" class="input-reset request__checkbox" id="prr-rate" />
 									Ставку прр
 								</label>
 								<label for="accumulation-period">
-									<input type="checkbox" class="request__checkbox" id="accumulation-period" />
+									<input type="checkbox" class="input-reset request__checkbox" id="accumulation-period" />
 									Срок технологического накопления груза
 								</label>
 								<label for="overtime-storage-rate">
-									<input type="checkbox" class="request__checkbox" id="overtime-storage-rate" />
+									<input type="checkbox" class="input-reset request__checkbox" id="overtime-storage-rate" />
 									Ставку хранения груза сверх срока
 									технологического накопления
 								</label>
 								<label for="specified-admission">
-									<input type="checkbox" class="request__checkbox" id="specified-admission" />
+									<input type="checkbox" class="input-reset request__checkbox" id="specified-admission" />
 									Возможность приёма и перевалки груза в
 									указанные сроки
 								</label>
@@ -287,23 +288,23 @@
 							<div class="request__form-inputs">
 								<div class="request__form-group">
 									<label for="personal-info">Имя, фамилия</label>
-									<input type="text" class="request__input" id="personal-info" />
+									<input type="text" class="input-reset request__input" id="personal-info" />
 								</div>
 								<div class="request__form-group">
 									<label for="company-name">Название компании *</label>
-									<input type="text" class="request__input" id="company-name" required />
+									<input type="text" class="input-reset request__input" id="company-name" required />
 								</div>
 								<div class="request__form-group">
 									<label for="phone-number">Номер телефона/факса</label>
-									<input type="text" class="request__input" id="phone-number" />
+									<input type="text" class="input-reset request__input" id="phone-number" />
 								</div>
 								<div class="request__form-group">
 									<label for="email">Адрес эл. почты *</label>
-									<input type="text" class="request__input" id="email" required />
+									<input type="text" class="input-reset request__input" id="email" required />
 								</div>
 							</div>
 						</div>
-						<button type="submit" class="request__form-button">
+						<button type="submit" class="btn-reset request__form-button">
 							Отправить
 							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
 								<circle cx="15" cy="15" r="14" stroke-width="2" />
@@ -352,8 +353,8 @@
 			</div>
 			<div class="footer__bottom">
 				<div class="container footer__container footer__bottom-container grid">
-					<ul class="footer__bottom-list">
-						<li>
+					<ul class="list-reset footer__bottom-list">
+						<li class="footer__bottom-item">
 							<h2 class="footer__bottom-title">информация о юр. лице</h2>
 						</li>
 						<li class="footer__bottom-item">
@@ -372,8 +373,8 @@
 							<a href="#">ОКТМО 5555555555555</a>
 						</li>
 					</ul>
-					<ul class="footer__bottom-list">
-						<li>
+					<ul class="list-reset footer__bottom-list">
+						<li class="footer__bottom-item">
 							<h2 class="footer__bottom-title">Закупки</h2>
 						</li>
 						<li class="footer__bottom-item">
@@ -386,8 +387,8 @@
 							<a href="#">Закупки на VISMA Tender</a>
 						</li>
 					</ul>
-					<ul class="footer__bottom-list">
-						<li>
+					<ul class="list-reset footer__bottom-list">
+						<li class="footer__bottom-item">
 							<h2 class="footer__bottom-title">акционерам</h2>
 						</li>
 						<li class="footer__bottom-item"><a href="#">Устав VISMA</a></li>
@@ -400,8 +401,8 @@
 						<li class="footer__bottom-item"><a href="#">Информация</a></li>
 						<li class="footer__bottom-item"><a href="#">Отчеты</a></li>
 					</ul>
-					<ul class="footer__bottom-list">
-						<li>
+					<ul class="list-reset footer__bottom-list">
+						<li class="footer__bottom-item">
 							<h2 class="footer__bottom-title">о компании</h2>
 						</li>
 						<li class="footer__bottom-item">
@@ -428,7 +429,7 @@
 		</footer>
 
 	</div>
-	<script src="js/app.min.js?_v=20230712172053"></script>
+	<script src="js/app.min.js?_v=20230713192803"></script>
 </body>
 
 </html>
